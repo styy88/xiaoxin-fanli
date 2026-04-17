@@ -26,7 +26,7 @@ class XinxinRebatePlugin(Star):
     @filter.event_message_type(filter.EventMessageType.ALL)
     async def handle_rebate_message(self, event: AstrMessageEvent):
         # 1. 防止机器人无限自循环回复（抓取自身发出的消息）
-        if event.get_sender_id() == event.bot.self_id:
+        if event.get_sender_id() == event.message_obj.self_id:
             return
 
         msg_str = event.message_str.strip()
