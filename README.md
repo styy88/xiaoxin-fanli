@@ -10,7 +10,7 @@
 
 ## ✨ 核心特性
 
-- 🛍️ **双端平台支持**：支持淘宝/天猫（基于折淘客API）与京东（基于折京客 + 京推推API）。
+- 🛍️ **多端平台支持**：支持淘宝/天猫（基于折淘客API）、京东（基于京东联盟）、拼多多（基于多多进宝与折淘客API）。
 - 💬 **微信个人号专属优化**：完美兼容 `openclaw-weixin` 通道，内置事件拦截（`stop_event`）机制。一旦识别到商品链接，返回返利信息后自动截断，**防止后端的 LLM (大语言模型) 出现乱回答或幻觉**。
 - ⚙️ **全可视化配置**：无需手动修改代码或 JSON 文件！采用 AstrBot V4 最新标准，直接在 WebUI 管理面板中填写 API 秘钥，保存即时生效。
 - ⚡ **异步极速响应**：底层采用 `aiohttp` 异步网络请求，附带严谨的超时处理，绝不卡死主线程，保证微信回复的及时性。
@@ -25,10 +25,10 @@
 4. 在弹出的表单中填入你的联盟与 API 参数：
    - **淘宝侧**：折淘客 AppKey、SID、淘宝联盟 PID (`mm_xxx_xxx_xxx`)、渠道 ID。
    - **京东侧**：折京客 AppKey、京东联盟 ID、推广位 ID。
-   - **京推推**：AppID、AppKey（用于生成京东优惠口令）。
+   - **拼多多**：折淘客 AppKey、拼多多AppKey、拼多多AppSecret、拼多多PID、拼多多UID。
 5. 点击**保存**，配置立即热重载生效！
 
-*(注：如果你还没有相关 API 秘钥，请前往 [折淘客](https://www.zhetaoke.com/)、京东联盟 和 [京推推](https://www.jingtuitui.com/) 注册申请。)*
+*(注：如果你还没有相关 API 秘钥，请前往 [折淘客](https://www.zhetaoke.com/)、[京东联盟](https://union.jd.com/index) 和 [拼多多开放平台](https://open.pinduoduo.com/application/home)[多多进宝](https://jinbao.pinduoduo.com/third-party/rank) 注册申请。)*具体教程可看折淘客
 
 ## 💻 使用示例
 
@@ -44,7 +44,7 @@
 
 ## 🤝 贡献与反馈
 
-如果你在使用过程中遇到任何 Bug，或者有添加拼多多、抖音等平台返利的需求，欢迎提交 Issue 或 Pull Request！
+如果你在使用过程中遇到任何 Bug，或者有添加抖音等平台返利的需求，欢迎提交 Issue 或 Pull Request！
 
 ## 📄 开源协议
 
