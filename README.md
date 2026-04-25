@@ -28,7 +28,7 @@
    - **拼多多**：折淘客 AppKey、拼多多AppKey、拼多多AppSecret、拼多多PID、拼多多UID。
 5. 点击**保存**，配置立即热重载生效！
 
-*(注：如果你还没有相关 API 秘钥，请前往 [折淘客](https://www.zhetaoke.com/)、[京东联盟](https://union.jd.com/index) 和 [拼多多开放平台](https://open.pinduoduo.com/application/home) | [多多进宝](https://jinbao.pinduoduo.com/third-party/rank) 注册申请。)*具体教程可看折淘客
+*(注：如果你还没有相关 API 秘钥，请前往 [淘宝联盟](https://pub.alimama.com/)、[折淘客](https://www.zhetaoke.com/)、[京东联盟](https://union.jd.com/index) 和 [拼多多开放平台](https://open.pinduoduo.com/application/home) | [多多进宝](https://jinbao.pinduoduo.com/third-party/rank) 注册申请。)*具体教程可看折淘客
 
 ## 💻 使用示例
 
